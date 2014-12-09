@@ -1,0 +1,74 @@
+.current-episode {
+  color: $white;
+  background-image: url("../images/syed-filter.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .episode {
+    font-size: .8125em;
+    text-transform: uppercase;
+    font-weight:400;
+    padding: 5em 15.5rem 0em;
+  }
+  h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    font-family: "SackersGothicW01-Medium",helvetica,arial,sans-serif;
+    padding: 0 15.5rem 1.5rem;
+  }
+  a {
+    color: $white;
+  }
+  ul {
+    padding: 0 15rem;
+  }
+  .strip {
+    background-color: $red;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+  }
+  .fa-play-circle-o {
+    font-size: 4.5rem;
+    color: $cream;
+    position: relative;
+    left: 15.25rem;
+  }
+  .play {
+    list-style: none;
+  }
+  .play a {
+    text-decoration: none;
+    color: black;
+  }
+  .play li {
+    display: inline;
+    background-color: white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding: 0.75rem;
+    margin: 0.15rem;
+    position: relative;
+    bottom: 3.95em;
+    left: 6em;
+  }
+  .share {
+    list-style: none;
+  }
+  .share a {
+    text-decoration: none;
+    color: black;
+  }
+  .share li {
+    display: inline;
+    background-color: white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding: 0.75rem;
+    margin: 0.15rem;
+    position: relative;
+    bottom: 6.25em;
+    left: 23.75em;
+  }
+}

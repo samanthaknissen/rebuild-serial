@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-stack;
+}
+
+p {
+  font-family: 'Oxygen',helvetica,arial,sans-serif;
+  font-size: 1.25em;
+  line-height: 2em;
+  padding: 0 15.5rem;
+}
