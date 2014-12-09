@@ -70,11 +70,17 @@
   <h2>.episodes</h2>
   <div class="episodes">
     <h1>All Episodes</h1>
-    <article>
+    <article class="article-block">
+      <div class="strip">
+        <a href="#"><i class="fa fa-play-circle-o"></i></a>
       <p class="episode">Ep. 01</p>
+    </div>
+    <p class="title">The Alibi</p>
+    <div class="caption">
       <p class="title">The Alibi</p>
       <p class="ep-details">A potential alibi serfaces... and then disappears again, at the worst possible time for Adnan's case.</p>
       <p class="details">Episode Details</p>
+    </div>
       <img src="images/asia.jpg">
     </article>
   </div>
@@ -114,7 +120,11 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
