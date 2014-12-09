@@ -5,8 +5,16 @@
   <title>Serial the Podcast</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
   <!-- build:css styles/main.css -->
-  <link rel="stylesheet" href="styles/_module.scss">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/_modules.css">
   <!-- endbuild -->
 </head>
 <body>
@@ -15,18 +23,10 @@
   <![endif]-->
   <div class="css-module">
   <img class="sample-image" src="images/module/header.png">
-  <h2>.main</h2>
-  <header class="main">
-    <h1>Serial</h1>
-    <ul class="main-nav">
-      <li>Home</li>
-      <li>Episodes</li>
-      <li>Posts</li>
-      <li>Maps, Docs, etc.</li>
-      <li>Music</li>
-      <li>About Serial</li>
-      <li>Donate</li>
-    </ul>
+  <h2>.header</h2>
+  <header class="header">
+    <a href="#"><i class="fa fa-bars"></i></a>
+    <img src="images/logo.png">
   </header>
   </div>
   <div class="css-module">
@@ -105,6 +105,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
