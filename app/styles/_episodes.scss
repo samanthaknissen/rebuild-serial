@@ -3,7 +3,7 @@
   height: 24.7rem;
   border-left: 1rem solid $cream;
   float: left;
-  margin: 0 2rem;
+  margin: 2rem 2rem;
   img {
     z-index: -10;
   }
@@ -79,4 +79,6 @@
     text-align: center;
     text-transform: uppercase;
   }
+  margin: auto;
+  width: 85%;
 }
